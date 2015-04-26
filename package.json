@@ -1,0 +1,23 @@
+{
+  "name": "resolver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "stargazers.js",
+  "scripts": {
+    "build": "browserify -t [babelify --stage 0] app.js > build.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "alt": "^0.15.6",
+    "axios": "^0.5.4",
+    "lru-cache": "^2.6.1",
+    "object-assign": "^2.0.0",
+    "react": "^0.13.2"
+  },
+  "devDependencies": {
+    "babelify": "^6.0.2",
+    "browserify": "^9.0.8"
+  }
+}
